@@ -14,11 +14,11 @@ def main(url):
         url_page = build_url_page_portfolios(index_page)
         page_portfolios_data = get_list_portfolios_info_one_page(url_page)
         portfolios_data.extend(page_portfolios_data)
-    #print(portfolios_data)
     build_excel_sheet(portfolios_data)
 
 
 def build_excel_sheet(portfolios_data):
+    """Make a csv file with the data from the portfolio list of dictionaries"""
     with open('portfolios_themes.csv', 'w') as outfile:
         writer = DictWriter(outfile, ('name', 'url', 'price'))
         writer.writeheader()
@@ -83,9 +83,3 @@ def extract_infos_portfolio(portfolio_card):
 
 main(url)
 
-
-class Portfolio:
-    def __init__(self, name, url, price):
-        self.name = name
-        self.url = url
-        self.price = price
