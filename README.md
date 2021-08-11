@@ -1,4 +1,4 @@
-# Webscrapping themeforest themes
+# Webscrapping themeforest portfolios
 
 This is a python script, that scraps every portfolio theme from themeforest. The script returns a csv file containing name, url and price of each theme.
 
@@ -9,7 +9,7 @@ This is a python script, that scraps every portfolio theme from themeforest. The
 3. Install dependencies with the command `pip install -r requirements.txt` 
 
 
-## Exécution
+## Execution
 
 1. Run the script with `$ python3 portfolio_scraping.py`
 2. Open the csv file in the local repository
