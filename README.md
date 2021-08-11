@@ -4,12 +4,12 @@ This is a python script, that scraps every portfolio theme from themeforest. The
 
 ## Installation
 
-1. Cloner this respository with the command `$ git clone https://github.com/Dyna-Soar/oc_p9_litreview.git`
-2. Cd into the repository with the command `$ cd oc_p9_litreview`
+1. Cloner this respository with the command `$ git clone https://github.com/Dyna-Soar/scraping_themeforest_portofolios.git`
+2. Cd into the repository with the command `$ cd scraping_themeforest_portofolios`
 3. Install dependencies with the command `pip install -r requirements.txt` 
 
 
 ## Exécution
 
-1. Run the script with `$ python3 manage.py runserver`
+1. Run the script with `$ python3 portfolio_scraping.py`
 2. Open the csv file in the local repository
